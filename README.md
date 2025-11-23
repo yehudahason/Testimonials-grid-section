@@ -4,7 +4,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://yehudahason.github.io/Testimonials-grid-section/)
+- Solution URL: [Github Pages](https://yehudahason.github.io/Testimonials-grid-section/)
 
 - Semantic HTML5 markup
 - CSS custom properties
