@@ -40,6 +40,18 @@ main {
   margin-inline: auto;
 }
 
+.float-img {
+  position: absolute;
+  display: none;
+  width: 110px;
+  height: 110px;
+  top: 0rem;
+  right: 5rem;
+  z-index: 1;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
 /* TABLET:  */
 @media (min-width: 768px) {
   main {
@@ -56,6 +68,9 @@ main {
 
   .card-5 {
     grid-column: 1 / span 2;
+  }
+  .float-img {
+    display: block;
   }
 }
 
@@ -96,6 +111,9 @@ main {
   border-radius: 50%;
   overflow: hidden;
 }
+.img-container.border {
+  border: 2px solid var(--Purple300);
+}
 
 .img-container img {
   width: 100%;
@@ -107,7 +125,7 @@ main {
 .card {
   padding: 2rem 1.8rem;
   border-radius: 8px;
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 25px 25px 18px rgba(0, 0, 0, 0.1);
 }
 
 .card-head {
@@ -174,15 +192,4 @@ p.text {
 
 p.black {
   color: var(--Grey500);
-}
-
-.float-img {
-  position: absolute;
-  width: 110px;
-  height: 110px;
-  top: 0.8rem;
-  right: 2.5rem;
-  z-index: 1;
-  opacity: 0.8;
-  pointer-events: none;
 }
