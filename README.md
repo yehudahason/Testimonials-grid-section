@@ -8,12 +8,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 - My solution at : [Github Pages](https://yehudahason.github.io/Testimonials-grid-section/)
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-
 ## Author
 
 - Frontend Mentor - [Yehuda Hason](https://www.frontendmentor.io/profile/yehudahason)
